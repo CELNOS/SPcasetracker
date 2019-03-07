@@ -1,0 +1,20 @@
+1. have the user initiate by entering (eventually pressing button) "new_case"
+    right now just asking if they want to add a case
+2. ask for inputs
+    case#
+    year
+    organ(s), separated by ","
+    is_normal
+    my main diagnosis
+    my additional diagnoses
+        these can be added later
+    final diagnosis
+    additional final diagnose
+3. place inputs into excel file on google docs
+    title: "SP_Case_Tracker"
+    tab: "AllData" (aka sheet1)
+    structure:
+        class SP_Case("case#", "year", ["organs"], "my_main_diagnosis",
+        ["my_additional_diagnoses"], "final_main_diagnosis", ["final_additional_diagnoses"])
+4. continually print/display total number of cases in file
+
